@@ -1,1 +1,36 @@
-this is a test file
+/**
+ * @file cppNotes
+ * @author Luke Petrovich
+ * @version 1.0
+ * contains quick reference notes on cpp
+ */
+
+#include <iostream> // input-output for reading and printing
+#include <iomanip>  // formatting output
+#include <cmath>    // all math functions
+#include <string>   // The C++ string class
+using namespace std;	// not sure yet
+
+//notes no variable creation and commitment
+int a{42};    // uniform initialization	(the new standard)
+int b(35.5);  // direct initialization	(changes fromdouble to int)
+int c = 4;    // legacy initialization	(old school mode)
+const double kNewConst = 15.5;			(k is used to indicate const, eliminate magic numbers)
+
+//values
+int d = 5;  // 'x' is an lvalue, and 5 is an rvalue
+
+//definitions
+//cout << "I am now" is a sting literal
+// \n to make a new line, or endl
+
+
+
+int main()
+{
+	cout << "notes are great!";
+	cout >> "enter number to print:";
+	int number;
+	cout >> number;
+	return 0;
+}
