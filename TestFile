@@ -29,7 +29,7 @@ int d = 5;  // 'x' is an lvalue, and 5 is an rvalue
 int main()
 {
 	cout << "notes are great!";
-	cout >> "enter number to print:";
+	cout << "enter number to print:";
 	int number;
 	cout >> number;
 	return 0;
